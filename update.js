@@ -44,7 +44,7 @@ document
 
         const { data, error } =
         await client
-        .from("phishing")
+        .from("messages")
         .insert([
             {
                 username: username,
